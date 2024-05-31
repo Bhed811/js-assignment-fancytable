@@ -51,6 +51,27 @@ tr:hover {
     margin-right: auto;
 }
 
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #25395a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.pagination button:hover {
+    background-color: #261e2e;
+}
+
+
 @media (max-width: 768px) {
 
     th,
